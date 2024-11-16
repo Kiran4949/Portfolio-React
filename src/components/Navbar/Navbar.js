@@ -22,10 +22,10 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isSolid ? "solid" : ""}`}>
       <div className="navbar-container container">
-        <div data-aos="slide-right">
+        <div data-aos="zoom-in">
           <h1 className="navbar-brand">Kiran Ajnalkar</h1>
         </div>
-        <ul className="menu-items" data-aos="slide-left">
+        <ul className="menu-items">
           <li>
             <Link to="/" smooth={true} duration={500}>
               Start

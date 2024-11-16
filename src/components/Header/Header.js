@@ -8,7 +8,8 @@ function Header() {
       <Navbar />
       <div className="home-content" id="/">
         <div className="name">
-          <h1 data-aos="zoom-out-down">Hi, I'm Kiran Ajnalkar</h1>
+          <h1> I'm</h1>
+          <h1>Hi, I'm Kiran Ajnalkar</h1>
           <h1 className="typewrite">
             <Typewriter
               options={{

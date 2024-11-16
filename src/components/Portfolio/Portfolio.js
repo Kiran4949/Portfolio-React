@@ -129,13 +129,13 @@ const Portfolio = () => {
                   <i className="fab fa-react"></i>
                   <h2>OneTap-Anime</h2>
                   <p>Build Using HTML,CSS,JS,React</p>
-                  <button>
+                  {/* <button>
                     <a href="https://github.com/Kiran4949/OneTap-Anime" target="blank">
                       View source <i className="fas fa-external-link-alt"></i>
                     </a>
-                  </button>
+                  </button> */}
                   <button>
-                    <a href="https://onetap-anime.netlify.app/" target="blank">
+                    <a href="https://onetap-anime.vercel.app/" target="blank">
                       Try it Live <i className="fas fa-external-link-alt"></i>
                     </a>
                   </button>

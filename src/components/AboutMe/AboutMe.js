@@ -23,11 +23,11 @@ function AboutMe() {
         <div className="about-content">
           <div className="left-content">
             <div>
-              <h1 className="about-heading" data-aos="zoom-out-left">
+              <h1 className="about-heading" data-aos="flip-up">
                 About Me
               </h1>
             </div>
-            <img src={myPhoto} alt="" data-aos="zoom-out-right" />
+            <img src={myPhoto} alt="" data-aos="zoom-in" />
             <p data-aos="zoom-in-up">
               Hello! I'm Kiran Ajnalkar, a recent graduate in Computer Science Engineering with a passion for web development. While I completed my B.E. in Computer Science Engineering in 2021, my journey into the world of web development truly began with my decision to pursue additional courses. <br />
               <br />

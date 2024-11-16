@@ -810,3 +810,37 @@ header {
     height: 90vmax;
   }
 }
+
+/* back to top button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 30px;
+  text-align: center;
+  right: 30px;
+  bottom: 30px;
+  z-index: 11;
+  color: whitesmoke;
+  border: 1px solid white;
+  padding: 7px 5px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  animation: action 1s infinite alternate;
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+.back-to-top:hover {
+  border: 2px solid orange;
+}
+
+/* end back to top button */

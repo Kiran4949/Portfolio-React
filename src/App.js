@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Skills from "./components/Skills/Skills";
 import AOS from "aos"; // Import AOS library
 import "aos/dist/aos.css"; // Import AOS CSS
+import BackToTopButton from "./components/BackToTopButton/BackToTopButton";
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
       <Skills />
       <Portfolio />
       <Contact />
+      <BackToTopButton />
     </div>
   );
 }
